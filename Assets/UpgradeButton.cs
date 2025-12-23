@@ -12,6 +12,7 @@ public class UpgradeButton : MonoBehaviour
             GameManager.Instance.coins -= upgradeCost;
             GameManager.Instance.coinsPerSecond += cpsIncrease;
             upgradeCost *= 1.2;
+            
         }
     }
 }
